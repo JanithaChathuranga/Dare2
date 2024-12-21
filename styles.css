@@ -1,0 +1,64 @@
+```css
+/* සාමාන්‍ය ශෛලීන් */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.dare-box {
+    padding: 20px;
+    background-color: #e0f7fa;
+    border: 2px solid #00bcd4;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: #00796b;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #00796b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #004d40;
+}
+
+footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #888;
+}
+```
