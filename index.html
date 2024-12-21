@@ -48,4 +48,15 @@ function uploadFile() {
 }
 </script>
 
+
+
+<button onclick="shareOnFacebook()">Share on Facebook</button>
+
+<script>
+function shareOnFacebook() {
+    const shareUrl = "https://www.facebook.com/sharer/sharer.php?u=" + encodeURIComponent(window.location.href);
+    window.open(shareUrl, '_blank');
+}
+</script>
+
         
